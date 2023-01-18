@@ -1,0 +1,635 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 5.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+
+.text_caps{text-transform: capitalize;}
+.ensober_alert{ position: absolute; right: 23px; top: 85px; z-index: 99999; width: 364px;}
+.hotel_item .button_area {
+    float: left;
+    width: 86%;
+    text-align: center;
+    margin: 15px 0 0;
+    position: absolute;
+    bottom: 1px;
+}
+.hotel_item .button_area button {
+    margin: 0 3px;
+}
+
+.col.s4.hotel_item .card {
+    min-height: 430px;
+}
+
+.show_select select {
+    display: block;
+}
+/***  loader gif start**/
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2147483647;
+    background-color: #fff;
+    opacity: 0.8;
+    display:none;
+    -webkit-transition: all 500ms linear 0s;
+    -moz-transition: all 500ms linear 0s;
+    -ms-transition: all 500ms linear 0s;
+    -o-transition: all 500ms linear 0s;
+    transition: all 500ms linear 0s;
+}
+
+#loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: -72px;
+    perspective: 400px;
+    transform-type: preserve-3d;
+}
+
+.hotel_img {
+    max-height: 235px;
+    overflow: hidden;
+}
+/***  loader gif end */
+/***for showing datatable  start**/
+.dataTables_wrapper .dataTables_length label select { display: inline-block;  width: auto;  height: auto; }
+.dataTables_scrollFoot .dataTables_scrollFootInner, .dataTables_scrollHead .dataTables_scrollHeadInner { margin: 0 auto;} 
+/***for showing datatable  end**/
+
+
+/** This css for remove plank space in top in all pages **/
+
+#main div#breadcrumbs-wrapper {
+    display: none;
+}
+#main .section-data-tables > .card {
+    display: none;
+}
+
+/** /This css for remove plank space in top in all pages **/
+
+.status_count .card .card-content { padding: 10px; }
+.status_count h4.card-stats-number.white-text { margin: 4px; }
+.dt-buttons {margin-left: 20px;}
+button.dt-button.buttons-csv.buttons-html5 { background-image: -webkit-linear-gradient(bottom, #fff 0%, blue 100%);}
+
+
+.contact_item{
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+.comment_box{
+	height: 214px;
+    padding: 15px;
+}
+
+.sidebar .sidebar-content .sidebar-menu ul li.active{
+	margin-left:7px!important;
+}
+
+.tab_border{
+    border-bottom: 1px solid #060651;
+    float: left;
+    width: 100%;
+    margin: 0 0 20px;
+}
+.contact_counter {
+    position: absolute;
+    left: 30px;
+    top: 11px;
+}
+
+.hotel_img img {
+    width: 100%;
+    height: 235px;
+}
+.hotel_item .card .card-content{padding: 24px 24px 75px;}
+.status_btn_r {
+		background-color: red;
+		color: #fff;
+		padding: 4px;
+		font-size: 10px;
+		border-radius: 5px;
+		font-weight: bold;
+		box-shadow: 0 0 1px 0px red;
+	}
+	.status_btn_g {
+		background-color: green;
+		color: #fff;
+		padding: 4px;
+		font-size: 10px;
+		border-radius: 5px;
+		font-weight: bold;
+		box-shadow: 0 0 1px 0px green;
+	}
+	.status_btn_y {
+		background-color: #b8b809;
+		color: #fff;
+		padding: 4px;
+		font-size: 10px;
+		border-radius: 5px;
+		font-weight: bold;
+		box-shadow: 0 0 1px 0px #b8b809;
+	}
+	table.display{width:100%!important;} 
+	
+	.favorite_contact{background-image: url(/asset/images/icon/favoirite.gif);
+    background-position: center;}
+	
+	
+	.custome_checkbox{
+		position: initial !important;
+		pointer-events: auto !important;
+		opacity: 1 !important;
+	}
+	.main_detail {
+		float: left;
+		width: 100%;
+		border-bottom: 1px solid #999;
+		padding-bottom: 11px;
+	}
+	textarea.leadfc {
+		height: 143px;
+	}
+	.commect_history {
+		padding: 0 10px;
+		height: 500px;
+		overflow-y: scroll;
+	}
+	.follow_title {
+		background: brown;
+		color: #fff;
+		text-align: center;
+	}
+	.commect_history ul {
+		padding: 0;
+		margin: 0;
+	}
+	.commect_history li {
+		float: left;
+		width: 100%;
+		color: #555;
+		padding: 5px 0 10px;
+		font-size: 14px;
+		border-bottom: 1px solid #9999;
+	}
+	.commect_history li span {
+		color: #b22828;
+		margin-top: 6px;
+		font-size: 12px;
+		display: inline-block;
+	}
+	
+	.todayfoloup{
+		background-color: #ffca2840 !important;
+	}
+	
+	/*** Dashboad Nav CSS ***/
+	nav.navbar-main.navbar-color.nav-collapsible.sideNav-lock.navbar-dark.gradient-45deg-indigo-purple.no-shadow {
+		height: 25px;
+	}
+	
+	nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+		line-height: 25px;
+		height: 25px;
+	}
+	.navbar-list i.material-icons {
+		font-size: 16px;
+	}
+	span.avatar-status.avatar-online {
+		width: 18px;
+		line-height: 16px;
+	}
+	a.waves-effect.waves-block.waves-light.profile-button {
+		height: 25px;
+	}
+	ul.navbar-list a {
+		padding: 0 7px;
+	}
+	header#header {
+		height: 25px !important;
+	}
+	.navbar-fixed {
+		height: 24px !important;
+	}
+	#main .content-wrapper-before {
+		top: 24px;
+	}
+	ul.custom_tabs {
+		padding: 0;
+		margin: 0 0 25px;
+	}
+	.clable_main {
+		float: left;
+		width: 100%;
+	}
+	.clable {
+		display: inline-block;
+		position: relative;
+		margin: 0 0 25px;
+		width: 140px;
+	}
+	.clable_text {
+		float: left;
+		padding: 8px 0 22px;
+		background-color: #00bcd4;
+		color: #fff;
+		width: 100%;
+		border-radius: 0 5px 0 5px;
+		text-align: center;
+	}
+	.clable_value {
+		color: #00bcd4;
+		background: #fff;
+		display: inline-block;
+		position: absolute;
+		padding: 8px 10px;
+		font-weight: bold;
+		border-radius: 80%;
+		border: 1px solid;
+		left: 37%;
+		bottom: -35%;
+	}
+	.clable.color1 .clable_text {background-color: #ff5252 !important;}
+	.clable.color1 .clable_value {color: #ff5252 !important;}
+	
+	.clable.color2 .clable_text {background-color: #ffa726 !important;}
+	.clable.color2 .clable_value {color: #ffa726 !important;}
+	
+	.clable.color3 .clable_text {background-color: #66bb6a !important;}
+	.clable.color3 .clable_value {color: #66bb6a  !important;}
+	
+	.clable.color4 .clable_text {background-color: #d4e157 !important;}
+	.clable.color4 .clable_value {color: #d4e157 !important;}
+	
+	/*** Dashboad Nav CSS ***/
+	
+	.gnbtn {
+		background-color: green;
+		color: #fff;
+		padding: 1px 7px;
+		border-radius: 4px;
+		margin-bottom: 5px;
+		display: inline-block;
+		font-size: 10px;
+		min-width: 41px;
+	}
+	
+	.bnbtn {
+		background-color: red;
+		color: #fff;
+		padding: 1px 7px;
+		border-radius: 4px;
+		margin-bottom: 5px;
+		display: inline-block;
+		font-size: 10px;
+		min-width: 41px;
+	}
+	.wnbtn {
+		background-color: #FF9800;
+		color: #fff;
+		padding: 1px 7px;
+		border-radius: 4px;
+		margin-bottom: 5px;
+		display: inline-block;
+		font-size: 10px;
+		min-width: 41px;
+	}
+	
+	.closed_leadR {
+		background-color: #ff00002b !important;
+		color: #555;
+	}
+	
+	
+	
+	
+/* ======== Itinerary Page Style ======== */
+
+.itin_detail_main{
+	float: left;
+    width: 100%;
+}
+
+.itin_detail_main ul{
+	float: left;
+    width: 100%;
+}
+
+.itin_detail_main ul li{
+	float: left;
+    width: 100%;
+}
+.itin_detail_main .collapsible-body{
+	float: left;
+    width: 100%;
+	padding: 5px 10px 20px;
+}
+input:focus {
+    border: 2px solid #ac8f8f !important;
+}
+select:focus {
+    border: 2px solid #ac8f8f !important;
+}
+textarea:focus {
+    border: 2px solid #ac8f8f !important;
+}
+.custom_checkbox{
+    position: unset !important;
+    opacity: 1 !important;
+    pointer-events: all !important;
+    width: 13px !important;
+    display: inline-block;
+}
+
+/* ======== Itinerary Page Style ======== */
+
+
+
+
+
+/* ======== Mobile View Style ======== */
+@media only screen and (max-width: 430px) {
+
+	/* === Table Responsive custome changes === */
+		table.dataTable>tbody>tr.child ul.dtr-details>li:first-child {
+			padding-top: 10px;
+		}
+		span.dtr-title {
+			width: 115px;
+		}
+		span.dtr-data {
+			float: right;
+			width: 200px;
+			line-height: 14px; 
+		}
+		table.dataTable>tbody>tr.child ul.dtr-details>li {
+			float: left;
+		}
+	/* === /Table Responsive custome changes === */
+	
+	table.dataTable.dtr-inline.collapsed > tbody > tr[role='row'] > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr[role='row'] > th:first-child:before{top: 25% !important;}
+	#multi-select_length {
+		display: none;
+	}
+	.navbar-list i.material-icons {
+		font-size: 25px;
+	}
+	header#header {
+		height: 40px !important;
+	}
+	nav.navbar-main.navbar-color.nav-collapsible.sideNav-lock.navbar-dark.gradient-45deg-indigo-purple.no-shadow{
+		height: 40px;
+	}
+	.dt-buttons {
+		width: 40%;
+		text-align: left !important;
+		display: inline-block;
+	}
+	div#multi-select_filter {
+		width: 48%;
+		display: inline-block;
+		text-align: left;
+		margin-bottom: 14px;
+	}
+	li.hide-on-large-only {
+		display: none;
+	}
+	a.waves-effect.waves-block.waves-light.sidenav-trigger {
+		position: absolute;
+		left: 7px;
+		top: 5px;
+	}
+	nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+		line-height: 25px;
+		height: 25px;
+	}
+	a.waves-effect.waves-block.waves-light.profile-button {
+		height: 42px;
+	}
+	span.avatar-status.avatar-online {
+		width: 25px;
+		line-height: 54px;
+	}
+	i.material-icons.noti_m_icon {
+		font-size: 25px;
+	}
+	.noti_m_icon{
+		margin-top: -7px;
+		height: 35px !important;
+	}
+	
+	li.custom_tab {
+		float: left !important;
+		height: 20px !important;
+	}
+	
+	li.custom_tab a.active {
+		padding: 8px 16px 3px !important;
+	}
+	
+	li.custom_tab a {
+		font-size: 12px !important;
+		padding: 8px 15px !important;
+		margin-right: 3px !important;
+	}
+	
+	.clable {
+		width: auto;
+		margin: 0 1px 15px;
+	}
+	
+	.clable a {
+		font-size: 11px;
+		margin: 0 0;
+		float: left;
+	}
+	.clable .clable_text {
+		padding: 5px 3px 15px;
+	}
+	.clable .clable_value {
+		font-size: 10px;
+		z-index: 99;
+		min-width: 25px;
+		padding: 6px;
+		text-align: center;
+		min-height: 25px;
+		box-sizing: border-box;
+		bottom: -14px;
+	}
+}
+/* ======== Mobile View Style ======== */
+
+
+/* ======== Custom Popup Style ======== */
+
+.ens_popup {
+    float: left;
+    width: 285px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 5px 0px;
+	display:none;
+	background-color: #fff;
+}
+.ens_popup_header {
+    float: left;
+    width: 100%;
+    padding: 0 0 7px;
+    border-bottom: 1px solid;
+}
+.ens_popup_body {
+    float: left;
+    width: 100%;
+}
+.ens_popup_footer {
+    float: right;
+    width: 100%;
+    border-top: 1px solid;
+    padding: 7px 0 0;
+    text-align: right;
+    margin-top: 10px;
+}
+.ens_popup_header h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+/* ======== Custom Popup Style ======== */
+
+/* ======== Custom Tab Style ======== */
+ul.custom_tabs {
+	float: left;
+	width: 100%;
+}
+li.custom_tab {
+	float: left;
+}
+li.custom_tab a {
+	background-color: #00bcd4;
+	padding: 12px 35px;
+	color: #fff;
+	font-size: 17px;
+	margin-right: 10px;
+}
+li.custom_tab a.active {
+	border-bottom: 5px solid #ff4081;
+	padding: 12px 35px 6px;
+}
+/* ======== /Custom Tab Style ======== */
+
+#toast-container{display:none !important;}
+
+.price_not_error{color:red;font-size: 12px;position: absolute;bottom: -15px;display: none;}
+
+
+/* ======== /Bottom Bar for room inventory user ======== */
+.bottom_menu_bar {
+	float: left;
+	position: fixed;
+	bottom: 1px;
+	background-color: #fff;
+	width: 100%;
+	box-shadow: 0 -2px 7px 0 #4444445e;
+	display:none;
+	z-index: 999;
+}
+.bottom_menu_bar ul {
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.bottom_menu_bar li {
+	display: inline-block;
+	width: 90px;
+	vertical-align: top;
+	padding: 9px 0 6px;
+	color: #5a2ea1;
+}
+.bottom_menu_bar .menu_name {
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	margin-top: -6px;
+}
+div#main {
+	float: left;
+	width: 100%;
+	background-color: hsl(220deg 11% 95%);
+	padding-top: 13px;
+	padding-bottom: 50px;
+}
+@media only screen and (max-width: 450px) {
+	.bottom_menu_bar{display:block;}
+}
+
+/* ======== /Bottom Bar for room inventory user ======== */
+
+table.rstbl.booked_details tr:nth-child(even) {
+    background-color: #44444436;
+}
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.agent_details_field{display:none;}
+.ven_update_mode{display:none !important;}
+
+.check_hotel {
+    opacity: 1 !important;
+    position: unset !important;
+    display: inline-block;
+    pointer-events: auto !important;
+    width: 15px !important;
+	height: 15px !important;
+    line-height: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+ul#hotels {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ul#hotels li {
+    display: inline-block;
+    border: 1px solid #eee;
+    padding: 5px 9px;
+    color: #000;
+    margin: 3px 1px;
+}
+ul#hotels li p {
+    padding-left: 5px;
+	display: inline-block;
+}
+.header-search-wrapper.hide-on-med-and-down {
+    display: none;
+}
+.ensober_alert {
+    position: absolute;
+    top: 23px;
+}
+
+

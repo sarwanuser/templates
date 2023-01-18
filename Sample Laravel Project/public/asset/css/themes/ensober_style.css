@@ -1,0 +1,309 @@
+.header-search-wrapper {
+    display: none !important;
+}
+
+.fixed-action-btn {
+    display: none;
+}
+
+.section.section-data-tables {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.btn.waves-effect {
+    margin: 0 0 10px !important;
+    padding: 0 8px !important;
+    font-size: 10px !important;
+    line-height: 23px !important;
+    height: 24px !important;
+}
+button.dt-button.buttons-csv {
+    background-color: blue !important;
+    padding: 2px 10px !important;
+    font-size: 11px !important;
+    background: #5353e3 !important;
+    color: #fff !important;
+}
+.card-title {
+    font-size: 15px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+div#multi-select_filter label input {
+    line-height: 1px !important;
+    padding: 0 5px !important;
+    margin: 0 !important;
+    border: 1px solid #eee;
+    height: 29px;
+    width: 167px;
+}
+label {
+    font-size: 15px !important;
+    color: #000 !important;
+}
+[type='checkbox'] + span:not(.lever):before, [type='checkbox']:not(.filled-in) + span:not(.lever):after {
+    width: 12px !important;
+    height: 12px !important;
+    border: 1px solid #5a5a5a !important;
+}
+[type='checkbox']:checked + span:not(.lever):before {
+    width: 7px !important;
+    height: 12px !important;
+    border-top: 1px solid transparent !important;
+    border-right: 1px solid #ff4081 !important;
+    border-bottom: 1px solid #ff4081 !important;
+    border-left: 1px solid transparent !important;
+}
+.btn-floating.waves-effect.waves-light {
+    font-size: 12px !important;
+    padding: 0px !important;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 2px !important;
+}
+.btn-floating i {
+    font-size: 16px !important;
+    line-height: 1px !important;
+}
+td {
+    padding: 0 3px 0 !important;
+}
+th {
+    margin: 0 !important;
+    padding: 0 3px 0 !important;
+}
+.dataTables_scrollHead {
+    font-size: 12px !important;
+}
+.dataTables_scrollBody {
+    font-size: 12px !important;
+}
+.dataTables_scrollFoot {
+    font-size: 12px !important;
+}
+div#multi-select_paginate {
+    font-size: 12px !important;
+}
+div#multi-select_info {
+    font-size: 12px !important;
+}
+.card-content {
+    padding: 15px 15px 35px !important;
+}
+.card {
+    margin: 0 !important;
+}
+.hotel_item .card {
+    min-height: 380px !important;
+    margin-bottom: 31px !important;
+    padding-bottom: 10px !important;
+}
+.col.s3.hotel_item {
+    margin: 0 !important;
+    padding: 3px !important;
+}
+input {
+    border: 1px solid #807c7cbf !important;
+    padding: 0 4px !important;
+    margin: 0 0 5px !important;
+    height: 29px !important;
+    width: 100% !important;
+    font-size: 12px !important;
+    box-shadow: none !important;
+    border-radius: 2px !important;
+    box-sizing: border-box !important;
+}
+label {
+    font-size: 12px !important;
+    left: 20px !important;
+    top: -5px !important;
+}
+.row {
+    margin-bottom: 20px !important;
+}
+.s3,.s4,.s5,.s6,.s7,.s8,.s9,.s10,.s11,.s12,.s2,.s1 {
+    margin: 3px 0px !important;
+    padding: 0 3px !important;
+}
+.dropify-wrapper input {
+    height: 100% !important;
+    width: 100% !important;
+}
+[type='checkbox'] + span:not(.lever) {
+    font-size: 13px !important;
+}
+
+select {
+    border: 1px solid #807c7cbf !important;
+    padding: 0 4px !important;
+    margin: 0 0 5px !important;
+    height: 29px !important;
+    width: 100% !important;
+    font-size: 12px !important;
+    box-shadow: none !important;
+    border-radius: 2px !important;
+    box-sizing: border-box !important;
+}
+.group {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+[type='radio']:not(:checked) + span, [type='radio']:checked + span {
+    font-size: 12px !important;
+}
+.hotel_blog {
+    width: 296px;
+    position: absolute;
+    display: none;
+}
+.hotel_item {
+    position: relative;
+    border: 1px solid lightsteelblue;
+}
+.smole_size {
+    width: 100%;
+    height: 125px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 3px #461a95;
+}
+.smole_size img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+.hotel_blog {
+    width: 296px;
+    position: absolute !important;
+    display: none;
+    z-index: 9999;
+    top: -36px;
+    left: 90%;
+}
+.card {
+    overflow: visible !important;
+}
+.dataTables_scrollBody {
+    overflow: hidden !important;
+}
+.ameniti {
+    border: 1px solid #eee;
+    min-height: 55px !important;
+    margin: 0 !important;
+}
+.verder_submit {
+    float: left;
+    text-align: center;
+    vertical-align: bottom;
+    margin-top: 22px !important;
+}
+.card {
+    overflow: hidden !important;
+}
+.card {
+    padding: 0 0 30px !important;
+}
+button#add_lead {
+    margin: 21px 0 0 !important;
+}
+
+textarea#lead_comment {
+    height: 29px;
+    margin: 0 !important;
+}
+.ensober_alert {
+    height: 53px;
+    padding: ;
+}
+.card.animate.fadeLeft {
+    padding: 0px !important;
+}
+.card.animate.fadeRight {
+    padding: 0px !important;
+}
+button#search_hotel {
+    display: inline-block;
+    margin-top: 23px !important;
+}
+.select-wrapper .select-dropdown {
+    display: none !important;
+}
+.select-wrapper .caret {
+    display: none !important;
+}
+select {
+    display: block !important;
+}
+.noti_msg {
+    height: 200px;
+}
+.db_fields li {
+    float: left;
+    color: #000;
+    background-color: khaki;
+    padding: 0 5px;
+    margin: 1px;
+    font-size: 10px;
+}
+.db_fields {
+    padding: 0;
+    margin: 0;
+}
+.active.open > .collapsible-body {
+    display: block;
+}
+.sidenav li.open {
+    background: linear-gradient(45deg, #303f9f, #7b1fa2) !important;
+    color: #fff;
+}
+li.bold.active.open .collapsible-body {
+    background: linear-gradient(45deg, #394bbe, #9c21d1) !important;
+}
+.sidenav li.open a {
+    color: #fff;
+}
+.sidenav li.open a i {
+    color: #fff !important;
+}
+li.bold.active.open li {
+    border-top: 1px solid #eee;
+}
+
+
+span.travel_type {
+    color: #fff;
+    background-color: #ff4081;
+    font-size: 11px;
+    position: absolute;
+    padding: 0 5px;
+    line-height: 13px;
+    border-radius: 5px;
+    bottom: -1px;
+}
+
+.travel_type_d {
+    color: #fff;
+    background-color: #ff4081;
+    font-size: 11px;
+    position: absolute;
+    padding: 0 5px;
+    line-height: 13px;
+    border-radius: 5px;
+    bottom: -1px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+button#add_lead {
+    float: left;
+    width: 100%;
+    position: fixed;
+    bottom: 1px;
+    left: 1px;
+    height: 50px !important;
+    font-size: 21px !important;
+    border-radius: 0;
+}
+}
