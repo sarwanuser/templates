@@ -1,0 +1,100 @@
+
+/** == Input type date == **/
+input[type="date"] {
+    position: relative;
+}
+
+/* create a new arrow, because we are going to mess up the native one
+see "List of symbols" below if you want another, you could also try to add a font-awesome icon.. */
+input[type="date"]:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; 
+    content: "\f073";
+    color: #00aa6c;
+    padding: 0 5px;
+}
+
+/* change color of symbol on hover */
+input[type="date"]:hover:after {
+    color: #bf1400;
+}
+
+/* make the native arrow invisible and stretch it over the whole field so you can click anywhere in the input field to trigger the native datepicker*/
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    color: transparent;
+    background: transparent;
+	cursor:pointer;
+}
+
+/* adjust increase/decrease button */
+input[type="date"]::-webkit-inner-spin-button {
+    z-index: 1;
+}
+
+ /* adjust clear button */
+ input[type="date"]::-webkit-clear-button {
+     z-index: 1;
+ }
+
+ input[type="date"]::before {
+	color: #999999;
+	content: attr(placeholder);
+}
+input[type="date"] {
+	color: #ffffff;
+}
+input[type="date"]:focus,
+input[type="date"]:valid {
+	color: #666666;
+}
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+	content: "" !important;
+}
+
+ /** == / Input type date == **/
+
+
+ /** == Select option == **/
+
+
+#booking_form select[disabled]{
+	background-color: #fff;
+}
+
+select {
+    position: relative;
+
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='green' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") !important;
+  background-repeat: no-repeat !important;
+  background-position-x: 98% !important;
+  background-position-y: 50% !important;
+}
+
+
+
+/* adjust increase/decrease button */
+select::-webkit-calendar-picker-indicator {
+    z-index: 1;
+	color: #00aa6c;
+}
+select::-webkit-inner-spin-button {
+    z-index: 1;
+	color: #00aa6c;
+}
+
+ /* adjust clear button */
+select::-webkit-clear-button {
+     z-index: 1;
+	 color: #00aa6c;
+ }
+/** == /Select option == **/
